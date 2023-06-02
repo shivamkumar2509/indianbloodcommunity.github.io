@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #181818;
+    }
+
+    div {
+        font-size: 50px;
+        color:aqua;
+        text-align: center;
+        width: 1000px;
+        height: 300px;
+        box-shadow: 16px 14px 20px #0000008c;
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div::before{
+        content: "";
+        background-image: conic-gradient(
+        AQUA 50deg, #ff0052 ,
+            transparent 140deg
+        );
+        width: 190%;
+        height: 190%;
+        position: absolute;
+        animation: rotate 4s linear infinite;
+        z-index: -1;
+    }
+    div::after{
+        content: "  ";
+        /* font-size:50px; */
+        width: 980px;
+        height: 280px;
+        background: #101010;
+        position: absolute;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: aqua;
+        font-size: larger;
+        letter-spacing: 5px;
+        box-shadow: inset 20px 20px 20px #0000008c;
+        z-index: -1;
+    }
+    @keyframes rotate {
+        0%{
+            transform: rotate(0deg);
+        }
+        100%{
+            transform: rotate(-360deg);
+        }
+    }
+    a{
+        position: absolute;
+        color:aqua;
+        text-decoration:none;
+        font-size: 20px;
+        margin-top: 150px;
+        
+    }
+</style>
+
+<body>
+    <div>WELCOME TO INDAIN BLOOD COMMUNITY<br><a href="home.php">click here</a></div>
+</body>
+
+</html>

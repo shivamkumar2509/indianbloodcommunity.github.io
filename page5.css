@@ -1,0 +1,135 @@
+body{
+	margin:0px;
+	padding:0px;
+	background-color: #FF2A2C;
+}
+.grey{
+	border:2px solid #CFCFCF;
+	margin-left: 30px;
+	width:1469px;
+	height: 350px;
+	background-color: #CFCFCF;
+}
+#blue{
+	border:2px solid #0F1699;
+	width: 50px;
+	height: 100px;
+	margin-left: 1400px;
+	margin-top: -2px;
+	background-color: #0F1699
+}
+#image1{
+	position: absolute;
+	border-radius: 80%;
+	/*height: 50px;*/
+	height: 10%;
+	margin-top: -110px;
+	margin-left: 45px;	
+}
+#text{
+	/*position: absolute;*/
+	margin-top: -270px;
+	margin-left: 70px;
+}
+.ring{
+	position: absolute;
+	display: inline-flex;
+	margin-left: 550px;
+	top: 0px;
+}
+
+#ring1{
+        border:4px solid black;
+	border-radius: 50%;
+	/*border-width: 2px;*/
+	width:30px;
+	height: 30px;	
+}
+#ring2{
+        border:4px solid black;
+	border-radius: 50%;
+	/*border-width: 2px;*/
+	width:30px;
+	height: 30px;	
+}
+#ring3{
+        border:4px solid black;
+	border-radius: 50%;
+	/*border-width: 2px;*/
+	width:30px;
+	height: 30px;	
+}
+#ring4{
+        border:4px solid black;
+	border-radius: 50%;
+	/*border-width: 2px;*/
+	width:30px;
+	height: 30px;	
+}
+.circle
+{
+	margin-right: 30px;
+}
+#tt1{
+	font-size: 150px;
+	margin-left: -450px;
+	color: red;
+	margin-top: 30px;
+	font-weight: bold;
+}
+#tt2{
+	position: absolute;
+	top:110px;
+	font-size:50px;
+	margin-left: -10px;
+	margin-top:70px;
+	font-weight: bold;
+}
+#image2{
+	width:550px;
+	height: 150px;
+	margin-left: 400px;
+	margin-top:80px;
+}
+#big{
+	font-size: 25px;
+	margin-left: 250px;
+	color: white;
+}
+.second{
+
+}
+h1{
+	margin-top: 50px;
+	margin-left: 250px;
+	font-size:100px;
+	font-weight: bold;
+	color:white;
+}
+#third{
+	font-size: 50px;
+	color: white;
+	margin-left: 100px;
+}
+#rod{
+	border:2px solid white;
+	width:2px;
+	height: 160px;
+	background-color: white;
+	margin-left: 650px;
+	margin-top: -220px;
+}
+#box{
+	font-size: 50px;
+	border:2px solid white;
+	color: #FF2A2C;
+	width:800px;
+	background-color: white;
+	margin-left: 700px;
+	margin-top: -190px;
+}
+#img{
+	width:300px;
+	height: 130px;
+	margin-left: 500px;
+}

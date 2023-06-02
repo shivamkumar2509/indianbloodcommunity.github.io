@@ -1,0 +1,70 @@
+body{
+	margin:0px;
+	padding: 0px;
+}
+.background{
+	position: relative;
+	background-image:url('./pngtree-geometric-gradient-creative-blood-donation-poster-background-material-picture-image_1127152.jpg');
+	background-size: cover;
+	position: absolute;
+	background-repeat: repeat; 
+	width:100%;
+	height: 100%;
+	cursor: pointer;	
+}
+
+#write{
+	position: absolute;
+	font-size: 80px;
+	margin-top: 80px;
+	margin-left:360px;
+	font-family: rajdhani; 
+	text-decoration: underline;
+}
+#write1{
+	position: absolute;
+	font-size: 50px;
+	margin-top: 180px;
+	margin-left:700px;
+	color:white;
+	background-color: black;
+	font-family: Castoro Titling;
+}
+#image{
+	/*z-index: 1;*/
+	position: absolute;
+	display: flex;
+	border-radius: 100%;
+	filter:grayscale();
+	transition:filter 0.4s ease-in-out;
+	background-image: url('/joint.jpg');
+	width: 10%;
+	height: 20%;
+	margin-top:350px;
+	margin-left: 670px;
+	border-color: red ;
+	border-style:solid;
+	border-width:10px;
+	filter:blur(8px);
+	-webkit-filter:blur(8px);
+}
+#image:hover{
+	filter: none;
+	z-index: 1;
+}
+.pro:hover .text{
+	z-index: -1;
+}
+.text{
+	position: absolute;
+	top:410px;
+	left:690px;
+	border-radius: 100%;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	/*margin-top: 350px;*/
+	font-family: ALGERIAN;
+	color:black;
+	z-index: 1;
+}
